@@ -63,6 +63,23 @@ section {
 }
 section div {
     border: 1px solid blue;
+}
+section h4 {
+    color: #9B9A9A;
+    font-size: 1.25rem;
+}
+section h5 {
+    font-weight: bold;
+}
+.opinion-img {
+    float: left;
+    height: 4rem;
+    width: 4rem;
+}
+.opinion-txt {
+    border: 1px solid yellowgreen;
+    float: right;
+
 
 }
 
