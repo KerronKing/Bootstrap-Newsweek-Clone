@@ -17,17 +17,19 @@ nav ul {
 nav ul li {
     border-right: 1px solid #EAEAEA;
     display: inline;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: bold;
-    padding-right: 1rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
 }
 nav li input {
     background-image: url("Images/mag-glass.png");
-    background-position: 40%;
+    background-position: 55%;
     background-repeat: no-repeat;
     background-size: 1rem;
     border: none;
-    line-height: 1
+    line-height: 1;
+    width: 80%;
 }
 .date {
     position: relative;
@@ -44,12 +46,24 @@ nav li input {
     border: none;
     color: white;
     font-size: 1.1rem;
+    font-weight: bold;
 }
 .nav-btn2 {
     background-color: white;
     border: none;
     color: #f72210;
     font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* First Section: Featured Stories, Top Story and Opinion Sections */
+
+section {
+    border: 1px solid red;
+}
+section div {
+    border: 1px solid blue;
+
 }
 
 
