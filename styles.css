@@ -1,0 +1,55 @@
+/*  Newsweek Navigation Bar */
+
+.red-section {
+    background-color: #f72210;
+    color: white;
+}
+.font {
+    font-family: "Bree Serif", serif;
+  }
+nav span {
+  position: relative;
+  top: 3rem;
+}
+nav ul {
+    margin-left: 1rem;
+}
+nav ul li {
+    border-right: 1px solid #EAEAEA;
+    display: inline;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-right: 1rem;
+}
+nav li input {
+    background-image: url("Images/mag-glass.png");
+    background-position: 40%;
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    border: none;
+    line-height: 1
+}
+.date {
+    position: relative;
+    top: 4.8rem;
+    left: 2.5rem;
+}
+.btn-container {
+    position: relative;
+    right: 2rem;
+    top: 4.2rem;
+}
+.nav-btn1 {
+    background-color: #f72210;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+}
+.nav-btn2 {
+    background-color: white;
+    border: none;
+    color: #f72210;
+    font-size: 1.1rem;
+}
+
+
