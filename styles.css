@@ -65,7 +65,8 @@ section {
     border: 1px solid blue;
 } */
 .opinion-article {
-    border-bottom: 1px solid #DFDFDF;
+    border: 1px solid red;
+    /* border-bottom: 1px solid #DFDFDF; */
     box-sizing: border-box;
 }
 .opinion-div-1 {
@@ -79,7 +80,7 @@ section {
     float: right;
     width: 77%;
 }
-.opinion-div-2 h6 {
+.opinion-title {
     font-size: 0.9rem;
     font-weight: bold;
 }
@@ -90,7 +91,7 @@ section {
 }
 section h4 {
     color: #9B9A9A;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
 }
 section h5 {
     font-weight: bold;
@@ -101,10 +102,28 @@ section h5 {
     width: 4rem;
 }
 .opinion-txt {
-    border: 1px solid yellowgreen;
+    /* border: 1px solid yellowgreen; */
     float: right;
 }
 .test {
     background: #f72210;
 }
-
+.latest-div-1 {
+    border: 1px solid orange;
+    box-sizing: border-box;
+    float: left;
+    height: auto;
+    width: 49%;
+}
+.latest-div-2 {
+    border: 1px solid purple;
+    box-sizing: border-box;
+    float: right;
+    padding: 0;
+    width: 51%;
+}
+.latest-img {
+    float: left;
+    height: 6rem;
+    width: 8rem;
+}
