@@ -116,3 +116,37 @@ section h5 {
     width: 8rem;
 }
 .text-1 {padding-left: 8.5rem;}
+.sign-up {
+    background-color: #f4f5f6;
+    height: 12rem;
+    margin: 0 auto;
+    width: 95%;
+}
+.sign-up h6 {
+    font-size: 1.2rem;
+    left: 4%;
+    position: relative;
+    top: 1.5rem;
+}
+.sign-up button {
+    left: 13%;
+    position: relative;
+    top: 2rem;
+}
+.sign-up p {
+    left: 12.3%;
+    position: relative;
+    top: 2.7rem;
+}
+.news-logo {
+    background-color: #f72210;
+    color: white;
+    float: left;
+    font-weight: bold;
+    font-size: 1.2rem;
+    left: 1%;
+    position: relative;
+    text-align: center;
+    top: 1.7rem;
+    width: 10%;
+}
