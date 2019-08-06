@@ -64,6 +64,20 @@ section {
 section div {
     border: 1px solid blue;
 }
+.opinion-article {
+    border: 1px solid green;
+    box-sizing: border-box;
+}
+.opinion-div-1 {
+    box-sizing: border-box;
+    float: left;
+    width: 20%;
+}
+.opinion-div-2 {
+    box-sizing: border-box;
+    float: right;
+    width: 80%;
+}
 section h4 {
     color: #9B9A9A;
     font-size: 1.25rem;
@@ -79,8 +93,8 @@ section h5 {
 .opinion-txt {
     border: 1px solid yellowgreen;
     float: right;
-
-
 }
-
+.test {
+    background: #f72210;
+}
 
