@@ -58,15 +58,16 @@ nav li input {
 
 /* First Section: Featured Stories, Top Story and Opinion Sections */
 
-section {
+.section-1 {
     border: 1px solid red;
+    height: 160rem;
 }
 .more-stories {font-size: 0.8rem;}
-/* section div {
-    border: 1px solid blue;
-} */
+.section-1-3 {
+    height: 160rem;
+}
+
 .opinion-article {
-    /* border: 1px solid red; */
     border-bottom: 1px solid #DFDFDF;
     box-sizing: border-box;
 }
@@ -100,9 +101,6 @@ section h5 {
 }
 .opinion-txt {
     float: right;
-}
-.test {
-    background: #f72210;
 }
 .latest-div-1 {
     border: 1px solid orange;

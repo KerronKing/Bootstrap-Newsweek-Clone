@@ -1,4 +1,5 @@
 @media screen and (max-width: 991px) {
+    .section-1 {height: auto;}
     .opinion-div-1 {
         padding-bottom: 0.5rem;
         width: 4rem;
