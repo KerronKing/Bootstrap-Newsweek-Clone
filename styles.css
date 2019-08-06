@@ -61,22 +61,32 @@ nav li input {
 section {
     border: 1px solid red;
 }
-section div {
+/* section div {
     border: 1px solid blue;
-}
+} */
 .opinion-article {
-    border: 1px solid green;
+    border-bottom: 1px solid #DFDFDF;
     box-sizing: border-box;
 }
 .opinion-div-1 {
     box-sizing: border-box;
     float: left;
-    width: 20%;
+    height: auto;
+    width: 23%;
 }
 .opinion-div-2 {
     box-sizing: border-box;
     float: right;
-    width: 80%;
+    width: 77%;
+}
+.opinion-div-2 h6 {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.opinion-div-2 p {
+    color: #706F6F;
+    font-size: 0.8rem;
+    font-weight: bold;
 }
 section h4 {
     color: #9B9A9A;
