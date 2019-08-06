@@ -1,7 +1,15 @@
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
     .opinion-div-1 {
         padding-bottom: 0.5rem;
-        width: 7%;
+        width: 4rem;
     }
-    .opinion-div-2 {width: 93%;}
+    .opinion-div-2 {
+        width: 93%;
+    }
+    .latest-div-1 {
+        width: 15%;
+    }
+    .latest-div-2 {
+        width: 85%;
+    }
 }
