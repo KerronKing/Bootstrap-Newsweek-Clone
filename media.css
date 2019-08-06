@@ -1,0 +1,7 @@
+@media screen and (max-width: 992px) {
+    .opinion-div-1 {
+        padding-bottom: 0.5rem;
+        width: 7%;
+    }
+    .opinion-div-2 {width: 93%;}
+}
