@@ -222,4 +222,16 @@ section h5 {
     position: relative;
     text-align: center;
 }
+.m9 {background-image: url(/Images/visit.jpg);}
+.m10 {background-image: url(/Images/trump-taxes.jpg);}
+.m11 {background-image: url(/Images/home-alone.jpg);}
+.m12 {background-image: url(/Images/toni.jpg);}
+.m13 {background-image: url(/Images/horizon-2.jpg);}
+.m14 {background-image: url(/Images/beto-orourke.jpg);}
+.m15 {background-image: url(/Images/vegan.jpg);}
+.m16 {background-image: url(/Images/soldier.jpg);}
+.fourth-section h6 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
 
