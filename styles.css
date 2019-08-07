@@ -235,3 +235,15 @@ section h5 {
     font-weight: bold;
 }
 
+/*  Featured Slideshows Section Styles */
+
+.m17 {background-image: url(/Images/manson.jpg);}
+.m18 {background-image: url(/Images/avant-garde.jpg);}
+.m19 {background-image: url(/Images/revamp.jpg);}
+.m20 {background-image: url(/Images/lions-safari.jpg);}
+.m21 {background-image: url(/Images/papua.jpg);}
+.m22 {background-image: url(/Images/rocket.jpg);}
+.fifth-section h6 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
