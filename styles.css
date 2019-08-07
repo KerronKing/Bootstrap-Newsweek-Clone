@@ -150,7 +150,7 @@ section h5 {
 }
 .news-img {width: 100%;}
 
-/*  Second Section - "In The Magazine" */
+/*  "In The Magazine" & "Editor's Pick" Styles */
 
 .trp-img {
     background-position: center;
@@ -168,10 +168,10 @@ section h5 {
 .m2 {background-image: url(/Images/bondage.jpg);}
 .m3 {background-image: url(/Images/terry.jpg);}
 .m4 {background-image: url(/Images/divided.jpg);}
-.m5 {background-image: url(/Images/bondage.jpg);}
-.m6 {background-image: url(/Images/bondage.jpg);}
-.m7 {background-image: url(/Images/bondage.jpg);}
-.m8 {background-image: url(/Images/bondage.jpg);}
+.m5 {background-image: url(/Images/money.jpg);}
+.m6 {background-image: url(/Images/strawberries.jpg);}
+.m7 {background-image: url(/Images/rupaul.jpg);}
+.m8 {background-image: url(/Images/world-class-relief.jpg);}
 .second-section article h6 {
     font-size: 1.1rem;
     font-weight: bold;
@@ -183,9 +183,6 @@ section h5 {
 .category-2 {
     background-color: white;
     color: #f72210;
-}
-.section2-div1 {
-    border: 1px solid red;
 }
 .trp-1 {
     height: 22.5rem;
@@ -201,14 +198,10 @@ section h5 {
     bottom: -20%;
 }
 .section2-div2 article{
-    border: 1px solid yellowgreen;
     box-sizing: border-box;
     height: auto;
     margin-left: -0.5rem;
     margin-right: -0.5rem;
-}
-.section2-div2 {
-    border: 1px solid blue;
 }
 .mag-heading {
     margin: 0 auto;
@@ -229,3 +222,4 @@ section h5 {
     position: relative;
     text-align: center;
 }
+
