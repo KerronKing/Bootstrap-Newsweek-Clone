@@ -150,3 +150,74 @@ section h5 {
     width: 10%;
 }
 .news-img {width: 100%;}
+
+/*  Second Section - "In The Magazine" */
+
+.second-section {
+    margin-top: 2rem;
+}
+.second-section article {
+    box-sizing: border-box;
+    /* margin: 0.5%; */
+    width: 25%;
+}
+.mag-img {
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+}
+.m1 {background-image: url(/Images/bondage.jpg);}
+.m1 {background-image: url(/Images/bondage.jpg);}
+.m1 {background-image: url(/Images/bondage.jpg);}
+.m1 {background-image: url(/Images/bondage.jpg);}
+.m1 {background-image: url(/Images/bondage.jpg);}
+.m1 {background-image: url(/Images/bondage.jpg);}
+.m1 {background-image: url(/Images/bondage.jpg);}
+.m1 {background-image: url(/Images/bondage.jpg);}
+.second-section article h6 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.category-1 {
+    background-color: #f72210;
+    color: white;
+}
+.category-2 {
+    background-color: white;
+    color: #f72210;
+}
+.section2-div1 {
+    border: 1px solid red;
+}
+.section2-div1 article{
+    border: 1px solid yellowgreen;
+}
+.section2-div2 article{
+    border: 1px solid yellowgreen;
+    height: auto;
+    width: 32%;
+}
+.section2-div2 {
+    border: 1px solid blue;
+}
+.mag-heading {
+    margin: 0 auto;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.mag-heading span {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.news-logo-2 {
+    background-color: #f72210;
+    color: white;
+    float: left;
+    font-weight: bold;
+    font-size: 1.2rem;
+    left: 41%;
+    position: relative;
+    text-align: center;
+}
