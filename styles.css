@@ -237,6 +237,19 @@ section h5 {
 
 /*  Featured Slideshows Section Styles */
 
+.divider {
+    color: #E0E0E0;
+    width: 92%;
+}
+.sixth-section {
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.sixth-section h4 {
+    color: #f72210;
+    font-weight: bold;
+}
 .m17 {background-image: url(/Images/manson.jpg);}
 .m18 {background-image: url(/Images/avant-garde.jpg);}
 .m19 {background-image: url(/Images/revamp.jpg);}
@@ -247,3 +260,10 @@ section h5 {
     font-size: 1.2rem;
     font-weight: bold;
 }
+.m23 {background-image: url(/Images/nfl.jpg);}
+.m24 {background-image: url(/Images/joaquin-castro.jpg);}
+.sixth-heading {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.side {border-bottom : 1px solid #E0E0E0;}
