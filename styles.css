@@ -166,16 +166,16 @@ section h5 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 15rem;
+    height: 16rem;
 }
-.m1 {background-image: url(/Images/bondage.jpg);}
-.m1 {background-image: url(/Images/bondage.jpg);}
-.m1 {background-image: url(/Images/bondage.jpg);}
-.m1 {background-image: url(/Images/bondage.jpg);}
-.m1 {background-image: url(/Images/bondage.jpg);}
-.m1 {background-image: url(/Images/bondage.jpg);}
-.m1 {background-image: url(/Images/bondage.jpg);}
-.m1 {background-image: url(/Images/bondage.jpg);}
+.m1 {background-image: url(/Images/august-cover.jpg);}
+.m2 {background-image: url(/Images/bondage.jpg);}
+.m3 {background-image: url(/Images/terry.jpg);}
+.m4 {background-image: url(/Images/divided.jpg);}
+.m5 {background-image: url(/Images/bondage.jpg);}
+.m6 {background-image: url(/Images/bondage.jpg);}
+.m7 {background-image: url(/Images/bondage.jpg);}
+.m8 {background-image: url(/Images/bondage.jpg);}
 .second-section article h6 {
     font-size: 1.1rem;
     font-weight: bold;
@@ -191,8 +191,16 @@ section h5 {
 .section2-div1 {
     border: 1px solid red;
 }
-.section2-div1 article{
-    border: 1px solid yellowgreen;
+.trp-1 {
+    height: 22.5rem;
+}
+.trp-2 {
+    background-color: #E8E6E6;
+    height: 2rem;
+}
+.trp-2 p {
+    font-weight: bold;
+    text-align: center;
 }
 .section2-div2 article{
     border: 1px solid yellowgreen;
