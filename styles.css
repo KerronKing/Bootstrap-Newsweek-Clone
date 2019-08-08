@@ -294,11 +294,11 @@ section h5 {
     padding: 4%;
 }
 .subscribe-img {
-    height: 16rem;
+    height: 80%;
     left: 25%;
     position: relative;
     top: 2rem;
-    width: 14rem;
+    width: 70%;
 }
 .news-img {
     height: 6rem;
@@ -306,13 +306,11 @@ section h5 {
 }
 .sub-cover {
     background-color: #f4f5f6;
-    float: left;
     height: 20rem;
     width: 50%;
 }
 .sub-cover-2 {
     background-color: #f4f5f6;
-    float: right;
     height: 20rem;
     width: 50%;
 }
@@ -322,13 +320,11 @@ section h5 {
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px solid #ebebeb;
-    float: left;
     height: 20rem;
     width: 37%;
 }
 .letter-2 {
     border: 1px solid #ebebeb;
-    float: right;
     height: 20rem;
     width: 63%;
 }

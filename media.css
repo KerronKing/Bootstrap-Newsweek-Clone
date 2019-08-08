@@ -38,6 +38,25 @@
     .fourth-section article {margin-top: 5%;}
     .fifth-section article {margin-top: 5%;}
     .sixth-2 {margin-top: 2rem;}
+    .sub-cover {width: 100%;}
+    .sub-cover-2 {
+        text-align: center;
+        width: 100%;
+    }
+    .subscribe-img {
+        height: 70%;
+        left: 40%;
+        position: relative;
+        width: 25%;
+    }
+    .letter {
+        height: 10rem;
+        width: 100%;
+    }
+    .letter-2 {
+        text-align: center;
+        width: 100%;
+    }
 
 
 }
