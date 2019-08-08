@@ -277,3 +277,58 @@ section h5 {
 .m32 {background-image: url(/Images/beauty.jpg);}
 .m33 {background-image: url(/Images/rodri.jpg);}
 .m34 {background-image: url(/Images/aaron-rodgers.jpg);}
+
+/*  SUBSCRIBE Section Styles */
+
+.subscribe-section {
+    height: 30rem;
+}
+.subscribe-section h4 {
+    color: #f72210;
+    font-weight: bold;
+}
+.subscribe-section button {
+    background-color: #f72210;
+    color: white;
+    font-weight: bold;
+    padding: 4%;
+}
+.subscribe-img {
+    height: 16rem;
+    left: 25%;
+    position: relative;
+    top: 2rem;
+    width: 14rem;
+}
+.news-img {
+    height: 6rem;
+    width: 8rem;
+}
+.sub-cover {
+    background-color: #f4f5f6;
+    float: left;
+    height: 20rem;
+    width: 50%;
+}
+.sub-cover-2 {
+    background-color: #f4f5f6;
+    float: right;
+    height: 20rem;
+    width: 50%;
+}
+.letter {
+    background-image: url(/Images/newsletter.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #ebebeb;
+    float: left;
+    height: 20rem;
+    width: 37%;
+}
+.letter-2 {
+    border: 1px solid #ebebeb;
+    float: right;
+    height: 20rem;
+    width: 63%;
+}

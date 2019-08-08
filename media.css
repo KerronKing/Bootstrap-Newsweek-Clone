@@ -13,6 +13,12 @@
     .latest-div-2 {
         width: 85%;
     }
+    .sub-cover {
+        width: 33%;
+    }
+    .sub-cover-2 {
+        width: 67%;
+    }
 }
 @media screen and (max-width: 768px) {
     .section-1-3 {height: 180rem;}
