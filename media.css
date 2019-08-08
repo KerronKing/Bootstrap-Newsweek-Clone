@@ -1,4 +1,15 @@
 @media screen and (max-width: 991px) {
+    nav h1 {
+        font-size: 1.5rem;
+        left: 3%;
+        padding-bottom: 1%;
+        position: relative;
+        top: 0.5rem;
+    }
+    .btn-container {
+        right: 2.5rem;
+        top: 0.5rem;
+    }
     .section-1 {height: auto;}
     .opinion-div-1 {
         padding-bottom: 0.5rem;
