@@ -70,7 +70,7 @@ main {
 .section-1-3 {
     height: 160rem;
 }
-
+.nursing {border: 1px solid #EAEAEA;}
 .opinion-article {
     border-bottom: 1px solid #DFDFDF;
     box-sizing: border-box;
@@ -225,6 +225,10 @@ section h5 {
     left: 41%;
     position: relative;
     text-align: center;
+}
+.magazine {
+    left: 2%;
+    position: relative;
 }
 .m9 {background-image: url(/Images/visit.jpg);}
 .m10 {background-image: url(/Images/trump-taxes.jpg);}
