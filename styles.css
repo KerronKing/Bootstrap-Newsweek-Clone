@@ -57,7 +57,10 @@ nav li input {
 }
 
 /* First Section: Featured Stories, Top Story and Opinion Sections */
-
+main {
+    height: auto;
+    position: relative;
+}
 .section-1 {
     height: 162rem;
     overflow: hidden;
@@ -281,7 +284,7 @@ section h5 {
 /*  SUBSCRIBE Section Styles */
 
 .subscribe-section {
-    height: 30rem;
+    height: auto;
 }
 .subscribe-section h4 {
     color: #f72210;
@@ -327,4 +330,36 @@ section h5 {
     border: 1px solid #ebebeb;
     height: 20rem;
     width: 63%;
+}
+
+/*  FOOTER Styles */
+
+footer {
+    clear: both;
+    position: relative;
+}
+.ftr-half {border-bottom: 1px solid #E0E0E0;}
+.ftr-sp-1 {
+    color: #f72210;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.ftr-sp-2 {
+    font-size: 0.8rem;
+    padding-left: 2%;
+    position: relative;
+    top: 2.43rem;
+}
+footer ul {
+    list-style: none;
+    position: relative;
+    top: 2.3rem;
+}
+footer ul li {
+    display: inline;
+    padding-left: 1rem;
+}
+footer li img {
+    height: 1.5rem;
+    width: 1.5rem;
 }

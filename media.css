@@ -57,6 +57,8 @@
         text-align: center;
         width: 100%;
     }
+    .ftr-sp-2 {top: 0;}
+    footer ul {top: 0;}
 
 
 }
