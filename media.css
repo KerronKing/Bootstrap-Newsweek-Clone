@@ -1,0 +1,75 @@
+@media screen and (max-width: 991px) {
+    nav h1 {
+        font-size: 1.5rem;
+        left: 3%;
+        padding-bottom: 1%;
+        position: relative;
+        top: 0.5rem;
+    }
+    .btn-container {
+        right: 2.5rem;
+        top: 0.5rem;
+    }
+    .section-1 {height: auto;}
+    .opinion-div-1 {
+        padding-bottom: 0.5rem;
+        width: 4rem;
+    }
+    .opinion-div-2 {
+        width: 93%;
+    }
+    .latest-div-1 {
+        width: 15%;
+    }
+    .latest-div-2 {
+        width: 85%;
+    }
+    .sub-cover {
+        width: 33%;
+    }
+    .sub-cover-2 {
+        width: 67%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .section-1-3 {height: 180rem;}
+    .section2-div1 {
+        height: 65rem;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .trp-1 {height: 60rem;}
+    .trp-2 {height: 5rem;}
+    .mag-img {height: 30rem;}
+    .section2-div2 article {
+        height: 35rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .fourth-section article {margin-top: 5%;}
+    .fifth-section article {margin-top: 5%;}
+    .sixth-2 {margin-top: 2rem;}
+    .sub-cover {width: 100%;}
+    .sub-cover-2 {
+        text-align: center;
+        width: 100%;
+    }
+    .subscribe-img {
+        height: 70%;
+        left: 40%;
+        position: relative;
+        width: 25%;
+    }
+    .letter {
+        height: 10rem;
+        width: 100%;
+    }
+    .letter-2 {
+        text-align: center;
+        width: 100%;
+    }
+    .ftr-sp-2 {top: 0;}
+    footer ul {top: 0;}
+
+
+}

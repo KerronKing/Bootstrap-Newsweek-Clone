@@ -2,20 +2,1343 @@
 <html lang="en">
   <head>
     <title>Newsweek Clone - Bootstrap Project</title>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"/>
-    <link rel="stylesheet" href="styles.css">
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <nav></nav>
-    <main></main>
-    <footer></footer>
+    <nav class="navbar-nav">
+      <div class="row justify-content-between red-section">
+        <span class="date d-none d-lg-block">Mon, Aug 05, 2019</span>
+        <h1 class="font">Newsweek</h1>
+        <div class="btn-container">
+          <button class="nav-btn1">Sign In</button>
+          <button class="nav-btn2">Subscribe</button>
+        </div>
+      </div>
+      <div class="row d-none d-lg-block">
+        <ul class="pt-2 d-flex col-12 justify-content-between">
+          <li class="pl-0">U.S.</li>
+          <li>World</li>
+          <li>Business</li>
+          <li>Tech &#38; Science</li>
+          <li>Culture</li>
+          <li>Sports</li>
+          <li>Health</li>
+          <li>Opinion</li>
+          <li class="border-0">Vantage</li>
+          <li class="border-0"><input type="text" placeholder="Search" /></li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <section class="container-fluid section-1">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg">
+            <h4>Featured Stories</h4>
+            <article class="card border-0">
+              <img
+                src="Images/mom-awards.png"
+                class="card-img-top"
+                alt="Momentum Awards"
+              />
+              <div class="card-body">
+                <h5>The Newsweek Momentum Awards</h5>
+                <p>
+                  The Newsweek Momentum Awards will recognize five individuals
+                  around the globe, as well as one city, which will be chosen as
+                  the "smartest city in the world."
+                </p>
+              </div>
+            </article>
+            <article class="card border-0">
+              <img
+                src="Images/shooting-walmart.jpg"
+                class="card-img-top"
+                alt="Walmart shooting"
+              />
+              <div class="card-body">
+                <h5>
+                  How Attacking Trump Could Take Heat Off Congress to Pass Gun
+                  Restrictions
+                </h5>
+                <p>
+                  Former Republican Congressman David Jolly of Florida told
+                  MSNBC that focusing on President Donald Trump "gives a pass to
+                  the broader Republican Party."
+                </p>
+              </div>
+            </article>
+            <article class="card border-0">
+              <img
+                src="Images/north-korea-missile-test.jpg"
+                class="card-img-top"
+                alt="Momentum Awards"
+              />
+              <div class="card-body">
+                <h5>
+                  North Korea Says U.S., South Korea Will Pay 'Heavy Price' for
+                  Drills, Fires Missiles
+                </h5>
+                <p>
+                  "The U.S. and South Korean authorities remain outwardly
+                  talkative about dialogue. But when they sit back, they sharpen
+                  a sword to do us harm," North Korea's Foreign Ministry warned.
+                </p>
+              </div>
+            </article>
+            <article class="card border-0">
+              <img
+                src="Images/spot-im-logo.png"
+                class="card-img-top"
+                alt="Momentum Awards"
+              />
+              <div class="card-body">
+                <h5>To Our Readers:</h5>
+                <p>
+                  We always want to hear from you, and to make that easier,
+                  we've implemented a new commenting forum. Take a look at the
+                  bottom of Newsweek articles. Spot.IM is a tool that helps
+                  readers respond to our stories and communicate with one
+                  another—and with us. Ask us a question, embed a GIF, point out
+                  a mistake. Be civil and respectful, please. And most
+                  important: Be in touch.
+                </p>
+              </div>
+            </article>
+            <article class="card border-0">
+              <img
+                src="Images/best-nursing-homes.png"
+                class="card-img-top"
+                alt="Momentum Awards"
+              />
+              <div class="card-body nursing">
+                <h5>Best Nursing Homes</h5>
+                <p>
+                  Newsweek is partnering with the respected global data research
+                  firm Statista Inc. to establish a ranking of Best Nursing
+                  Homes. The final rankings will be published in Newsweek
+                  magazine and on Newsweek.com
+                </p>
+              </div>
+            </article>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-5 p-0">
+            <h4>Top Story</h4>
+            <article class="card border-0">
+              <img src="Images/sad.jpg" class="card-img-top" alt="El-Paso" />
+              <div class="card-body">
+                <h5>
+                  Mitch McConnell Remains Silent on Pushing Gun Regulation
+                  Through Senate
+                </h5>
+                <p>
+                  McConnell, who is currently recovering from a fractured
+                  shoulder at his home in Kentucky, has not responded to
+                  widespread calls for the Senate to act in the wake of two mass
+                  shootings.
+                </p>
+              </div>
+            </article>
+            <div class="container-fluid">
+              <h4>Culture &#38; Travel</h4>
+              <div class="row">
+                <div class="col-sm-12 col-md p-0">
+                  <article class="card mr-2 h-50 border-0">
+                    <img
+                      src="Images/genever.jpg"
+                      class="card-img-top"
+                      alt="El-Paso"
+                    />
+                    <div class="card-body">
+                      <h5>
+                        7 Best Cocktail Bars in Los Angeles
+                      </h5>
+                      <p>
+                        Los Angeles has quickly become one of the best cocktail
+                        cities in America and has the bars to prove it.
+                      </p>
+                    </div>
+                  </article>
+                  <article class="card mr-2 h-50 border-0">
+                    <img
+                      src="Images/netflix.png"
+                      class="card-img-top"
+                      alt="El-Paso"
+                    />
+                    <div class="card-body">
+                      <h5>
+                        What's Coming to Netflix in August 2019?
+                      </h5>
+                      <p>
+                        Every film of the Rocky series will debut on Netflix
+                        next month along with several new original titles.
+                      </p>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-sm-12 col-md p-0">
+                  <article class="card ml-2 h-50 border-0">
+                    <img
+                      src="Images/egypt.png"
+                      class="card-img-top"
+                      alt="El-Paso"
+                    />
+                    <div class="card-body">
+                      <h5>
+                        Ancient Egypt: Underwater Archaeologists Find Temple
+                        Ruins in Sunken City
+                      </h5>
+                      <p>
+                        Researchers also found treasures like jewelry and coins
+                        in the remains of ancient shipwrecks.
+                      </p>
+                    </div>
+                  </article>
+                  <article class="card ml-2 h-50 border-0">
+                    <img
+                      src="Images/cul-books.jpg"
+                      class="card-img-top"
+                      alt="El-Paso"
+                    />
+                    <div class="card-body">
+                      <h5>
+                        30 Last Chance Beach Reads for Summer 2019
+                      </h5>
+                      <p>
+                        Dive into a new world of literature with Newsweek's top
+                        30 picks to read during these final lazy, hazy, crazy
+                        days of summer.
+                      </p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+
+            <h4 class="mt-5">More Stories</h4>
+            <article class="opinion-article clearfix">
+              <div class="latest-div-1 w-100">
+                <img
+                  src="Images/gun-reform.jpg"
+                  class="latest-img"
+                  alt="Trump Rally"
+                />
+                <h6 class="opinion-title text-1">
+                  Homeland Security Chief: 'We Need to Invest More' in Combating
+                  White Supremacist Violence
+                </h6>
+                <p class="text-1 more-stories">
+                  Department of Homeland Security Secretary Kevin McAleenan said
+                  he wants to bolster the program and has asked Congress for
+                  more funding.
+                </p>
+              </div>
+            </article>
+            <article class="opinion-article clearfix">
+              <div class="latest-div-1 w-100">
+                <img
+                  src="Images/democratic.jpg"
+                  class="latest-img"
+                  alt="Jack The Ripper"
+                />
+                <h6 class="opinion-title text-1">
+                  Biden, Harris Are Top Targets of Misinformation During July
+                  Democratic Debates
+                </h6>
+                <p class="text-1 more-stories">
+                  The falsehoods identified by VineSight were not
+                  run-of-the-mill social media jabs, but high-performing tweets
+                  that passed a certain threshold for virality.
+                </p>
+              </div>
+            </article>
+            <article class="opinion-article clearfix">
+              <div class="latest-div-1 w-100">
+                <img
+                  src="Images/iran.jpg"
+                  class="latest-img"
+                  alt="Rowan University"
+                />
+                <h6 class="opinion-title text-1">
+                  Russia, Iran Step Up Rhetoric Against U.S., Announce Plans to
+                  Train Together
+                </h6>
+                <p class="text-1 more-stories">
+                  Iran's navy chief called the U.K.'s decision to join the U.S.
+                  in the Persian Gulf "a big bluff and a deceitful act that
+                  tries to make this region look unsafe, even though it is
+                  secure.
+                </p>
+              </div>
+            </article>
+            <article class="opinion-article clearfix">
+              <div class="latest-div-1 w-100">
+                <img
+                  src="Images/gold.jpg"
+                  class="latest-img"
+                  alt="Hanna Thompson"
+                />
+                <h6 class="opinion-title text-1">
+                  World's Thinnest Gold Just Two Atoms Thick Created by
+                  Scientists
+                </h6>
+                <p class="text-1 more-stories">
+                  The material is considered to be two-dimensional because all
+                  of the atoms—which are laid out in two layers, one on top of
+                  the other—are surface atoms.
+                </p>
+              </div>
+            </article>
+            <article class="opinion-article clearfix">
+              <div class="latest-div-1 w-100">
+                <img
+                  src="Images/aoc.jpg"
+                  class="latest-img"
+                  alt="Ocasio-Cortez"
+                />
+                <h6 class="opinion-title text-1">
+                  Ocasio-Cortez Blasts McConnell Over 'Team Mitch' Groping and
+                  Choking Cutout of Her
+                </h6>
+                <p class="text-1 more-stories">
+                  "Is this just the standard culture of #TeamMitch?" New York
+                  Representative Alexandria Ocasio-Cortez asked.
+                </p>
+              </div>
+            </article>
+            <article class="opinion-article clearfix">
+              <div class="latest-div-1 w-100">
+                <img
+                  src="Images/connor.jpg"
+                  class="latest-img"
+                  alt="Horizon High School"
+                />
+                <h6 class="opinion-title text-1">
+                  Twitter Account Linked to Dayton Shooter Praised Satan,
+                  Socialism
+                </h6>
+                <p class="text-1 more-stories">
+                  The man who killed nine people at a bar in Dayton, Ohio, was a
+                  violent misogynist.
+                </p>
+              </div>
+            </article>
+            <article class="opinion-article clearfix">
+              <div class="latest-div-1 w-100">
+                <img
+                  src="Images/r-kelly.jpg"
+                  class="latest-img"
+                  alt="kellyanne Conway"
+                />
+                <h6 class="opinion-title text-1">
+                  R. Kelly Allegedly Paid Underage Girl for Sexual Contact, New
+                  Charges Say
+                </h6>
+                <p class="text-1 more-stories">
+                  The singer has denied all the allegations against him.
+                </p>
+              </div>
+            </article>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg section-1-3">
+            <h4>Opinion</h4>
+            <article class="opinion-article clearfix">
+              <div class="opinion-div-1 w-100">
+                <img
+                  src="Images/alexandra-minna-stern.png"
+                  class="opinion-img"
+                  alt="Alexandra Minna Stern"
+                />
+                <h6 class="opinion-title text">
+                  It's Come to This: White Nationalism Is Inciting Mass Murder
+                  in America
+                </h6>
+                <p class="text">BY ALEXANDRA MINNA STERN</p>
+              </div>
+            </article>
+            <article class="opinion-article clearfix pt-2">
+              <div class="opinion-div-1 w-100">
+                <img
+                  src="Images/michael-e-mann.png"
+                  class="opinion-img"
+                  alt="Michael Mann"
+                />
+                <h6 class="opinion-title text">
+                  Climate Change Is Finally on the Agenda for 2020. But Is It
+                  Too Late?
+                </h6>
+                <p class="text">BY MICHAEL E. MANN</p>
+              </div>
+            </article>
+            <article class="opinion-article clearfix pt-2">
+              <div class="opinion-div-1 w-100">
+                <img
+                  src="Images/sayu-bhojwani.png"
+                  class="opinion-img"
+                  alt="Sayu Bhojwani"
+                />
+                <h6 class="opinion-title text">
+                  It'll Take More Than Photo Ops at the Border to Win the
+                  Immigrant Vote
+                </h6>
+                <p class="text">BY SAYU BHOJWANI</p>
+              </div>
+            </article>
+            <article class="opinion-article clearfix pt-2">
+              <div class="opinion-div-1 w-100">
+                <img
+                  src="Images/anthony-harwood.png"
+                  class="opinion-img"
+                  alt="Anthony Harwood"
+                />
+                <h6 class="opinion-title text">
+                  The Incredible Pettiness of Saudi 'Progress' on Women's Rights
+                </h6>
+                <p class="text">BY ANTHONY HARWOOD</p>
+              </div>
+            </article>
+            <article class="opinion-article clearfix pt-2">
+              <div class="opinion-div-1 w-100">
+                <img
+                  src="Images/alfie-bown.png"
+                  class="opinion-img"
+                  alt="Alfie Bown and Mou Ming"
+                />
+                <h6 class="opinion-title text">
+                  China's Answer to the Hong Kong Crisis Must Be Political
+                  Reform
+                </h6>
+                <p class="text">BY ALFIE BOWN AND MOU MING</p>
+              </div>
+            </article>
+            <article class="opinion-article clearfix pt-2">
+              <div class="opinion-div-1 w-100">
+                <img
+                  src="Images/charlie-kirk.png"
+                  class="opinion-img"
+                  alt="Charlie Kirk"
+                />
+                <h6 class="opinion-title text">
+                  Seven Big Reveals About the Democrats' 2020 Civil War
+                </h6>
+                <p class="text">BY CHARLIE KIRK</p>
+              </div>
+            </article>
+            <h4 class="mt-5">Latest News</h4>
+            <article class="opinion-article clearfix">
+              <div class="latest-div-1 w-100">
+                <img
+                  src="Images/donald-trump-rally.jpg"
+                  class="latest-img"
+                  alt="Trump Rally"
+                />
+                <h6 class="opinion-title text-1">
+                  CNN Plays Clip of Trump Laughing As Supporter Says Migrants
+                  Should Be Shot
+                </h6>
+              </div>
+            </article>
+            <article class="opinion-article clearfix">
+              <div class="latest-div-1 w-100">
+                <img
+                  src="Images/jack-ripper.png"
+                  class="latest-img"
+                  alt="Jack The Ripper"
+                />
+                <h6 class="opinion-title text-1">
+                  Who Was Martha Tabram? Jack The Ripper May Have Killed Her 131
+                  Years Ago
+                </h6>
+              </div>
+            </article>
+            <article class="opinion-article clearfix">
+              <div class="latest-div-1 w-100">
+                <img
+                  src="Images/rowan.jpg"
+                  class="latest-img"
+                  alt="Rowan University"
+                />
+                <h6 class="opinion-title text-1">
+                  By Dumping Traditional Textbooks University Hopes to Save
+                  Students $1.2M
+                </h6>
+              </div>
+            </article>
+            <article class="opinion-article clearfix">
+              <div class="latest-div-1 w-100">
+                <img
+                  src="Images/hanna-thompson.jpg"
+                  class="latest-img"
+                  alt="Hanna Thompson"
+                />
+                <h6 class="opinion-title text-1">
+                  Identical Twins Diagnosed With 'Mirror' Breast Cancer Just
+                  Weeks Apart
+                </h6>
+              </div>
+            </article>
+            <article class="opinion-article clearfix">
+              <div class="latest-div-1 w-100">
+                <img src="Images/huawei.jpg" class="latest-img" alt="Huawei" />
+                <h6 class="opinion-title text-1">
+                  What is HongMeng? Huawei's Mystery New Mobile OS May Soon Be
+                  Revealed
+                </h6>
+              </div>
+            </article>
+            <article class="opinion-article clearfix">
+              <div class="latest-div-1 w-100">
+                <img
+                  src="Images/horizon-high-school-vigil.jpg"
+                  class="latest-img"
+                  alt="Horizon High School"
+                />
+                <h6 class="opinion-title text-1">
+                  High School Holds Sunset Memorial for Teenager Killed in El
+                  Paso Attack
+                </h6>
+              </div>
+            </article>
+            <article class="opinion-article clearfix">
+              <div class="latest-div-1 w-100">
+                <img
+                  src="Images/kellyanne-conway.jpg"
+                  class="latest-img"
+                  alt="kellyanne Conway"
+                />
+                <h6 class="opinion-title text-1">
+                  Kellyanne Conway Shames Elizabeth Warren's Fundraising Off
+                  Dayton Shooting
+                </h6>
+              </div>
+            </article>
+            <article
+              class="card p-0 col-md-4 offset-md-4 col-lg-12 offset-lg-0"
+            >
+              <img src="Images/usc.jpg" class="card-img-top" alt="USC" />
+              <div class="card-body">
+                <h5>
+                  What can a career in public affairs, policy & administration
+                  do for you?
+                </h5>
+                <p>
+                  Find out what positions in this challenging and rewarding
+                  field entail and how you can get the necessary qualifications.
+                </p>
+              </div>
+            </article>
+            <div
+              class="sign-up mt-3 card col-sm-6 offset-sm-3 card col-md-6 offset-md-3 col-lg-12 offset-lg-0"
+            >
+              <div>
+                <div class="news-logo font">N</div>
+                <h6>SIGN UP FOR OUR NEWSLETTER</h6>
+                <button class="btn btn-secondary">SIGN UP</button>
+                <p>Update your preferences »</p>
+              </div>
+            </div>
+            <article
+              class="card p-0 mt-4 col-md-4 offset-md-4 col-lg-12 offset-lg-0"
+            >
+              <img
+                src="Images/cbd-home-page.jpg"
+                class="card-img-top"
+                alt="USC"
+              />
+              <div class="card-body">
+                <h5>
+                  The Ultimate Guide to CBD
+                </h5>
+                <p>
+                  Heralded as “magic” by Tommy Chong, CBD is more than just a
+                  trendy buzzword. In this Special Edition from Newsweek, learn
+                  everything you need to know about CBD, from potential uses to
+                  the ever-changing legislation surrounding it.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="container-fluid second-section">
+        <div class="row">
+          <div class="col-md-3 section2-div1">
+            <article class="w-100">
+              <div class="trp-1 trp-img m1"></div>
+              <div class="trp-2">
+                <p>SEE ALL FEATURES ></p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-9 section2-div2">
+            <div class="mag-heading">
+              <div class="news-logo-2 px-2 font">N</div>
+              <span class="magazine">IN THE MAGAZINE</span>
+            </div>
+            <div class="row justify-content-md-between">
+              <article class="col-sm-12 col-md">
+                <div class="mag-img m2"></div>
+                <div class="my-3">
+                  <span class="category-1 p-2">COVER</span>
+                  <span class="category-2 p-2">U.S.</span>
+                </div>
+                <h6>The inside story of Charlottesville</h6>
+              </article>
+              <article class="col-sm-12 col-md">
+                <div class="mag-img m3"></div>
+                <div class="my-3">
+                  <span class="category-1 p-2">COVER</span>
+                  <span class="category-2 p-2">U.S.</span>
+                </div>
+                <h6>
+                  Terry McAuliffe on Charlottesville, Racism and Donald Trump
+                </h6>
+              </article>
+              <article class="col-sm-12 col-md">
+                <div class="mag-img m4"></div>
+                <div class="my-3">
+                  <span class="category-1 p-2">FEATURES</span>
+                  <span class="category-2 p-2">WORLD</span>
+                </div>
+                <h6>A Deeper Divide in a Divided City</h6>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="third-section container-fluid mt-1">
+        <div class="section2-div2">
+          <div class="row justify-content-md-between">
+            <article class="col-sm-12 col-md">
+              <div class="mag-img m5"></div>
+              <div class="my-3">
+                <span class="category-1 p-2">DOWNLOADS</span>
+                <span class="category-2 p-2">CULTURE</span>
+              </div>
+              <h6>How To (Re)Make Money</h6>
+            </article>
+            <article class="col-sm-12 col-md">
+              <div class="mag-img m6"></div>
+              <div class="my-3">
+                <span class="category-1 p-2">NEW WORLD</span>
+                <span class="category-2 p-2">CULTURE</span>
+              </div>
+              <h6>
+                What's Your Moonshot? Meet the Man Coating Fruits and Vegetables
+                to Alleviate Food Waste and World Hunger
+              </h6>
+            </article>
+            <article class="col-sm-12 col-md">
+              <div class="mag-img m7"></div>
+              <div class="my-3">
+                <span class="category-1 p-2">DOWNTIME</span>
+                <span class="category-2 p-2">CULTURE</span>
+              </div>
+              <h6>
+                RuPaul On Drag Queens' Special Ability to Connect With Audiences
+              </h6>
+            </article>
+            <article class="col-sm-12 col-md">
+              <div class="mag-img m8"></div>
+              <div class="my-3">
+                <span class="category-1 p-2">FEATURES</span>
+                <span class="category-2 p-2">WORLD</span>
+              </div>
+              <h6>WORLD-CLASS RELIEF</h6>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="fourth-section container-fluid mt-3">
+        <div class="mag-heading">
+          <div class="news-logo-2 px-2 font">N</div>
+          <span class="ml-3">EDITOR'S PICK</span>
+        </div>
+        <div class="section2-div2">
+          <div class="row justify-content-md-around">
+            <article class="col-sm-12 col-md-6 col-lg">
+              <div class="mag-img m9"></div>
+              <div class="my-3"></div>
+              <h6>
+                El Paso Newspaper Editor Has a Message for Trump Ahead of
+                President's Visit
+              </h6>
+              <p>
+                Trump will visit first responders and victims' families in
+                Dayton, Ohio, where nine people were killed by a gunman at a
+                bar, before moving on to El Paso, where 22 people lost their
+                lives by a separate gunman at a Walmart.
+              </p>
+            </article>
+            <article class="col-sm-12 col-md-6 col-lg">
+              <div class="mag-img m10"></div>
+              <div class="my-3"></div>
+              <h6>
+                College Student Tried to Access Trump's Tax Info With FAFSA
+                Application
+              </h6>
+              <p>
+                On Tuesday, the same day that the president's re-election
+                campaign sued California over a law requiring presidential
+                candidates to release their tax returns, the student pleaded
+                guilty.
+              </p>
+            </article>
+            <article class="col-sm-12 col-md-6 col-lg">
+              <div class="mag-img m11"></div>
+              <div class="my-3"></div>
+              <h6>
+                Disney Is Rebooting 'Home Alone' and People Are Not Happy About
+                It
+              </h6>
+              <p>
+                Kevin McCalister's masterful plots and schemes against burglars
+                Harry and Marv may be a bit different than what was portrayed in
+                the 1990 classic.
+              </p>
+            </article>
+            <article class="col-sm-12 col-md-6 col-lg">
+              <div class="mag-img m12"></div>
+              <div class="my-3"></div>
+              <h6>Toni Morrison's 1981 Newsweek Cover Story</h6>
+              <p>
+                In the feature, Toni Morrison discussed her childhood, her work
+                and how she felt about being called a "black writer." "Of course
+                I'm a black writer. That's like saying Dostoevsky's not a
+                Russian writer."
+              </p>
+            </article>
+          </div>
+        </div>
+        <div class="section2-div2">
+          <div class="row justify-content-md-around">
+            <article class="col-sm-12 col-md-6 col-lg">
+              <div class="mag-img m13"></div>
+              <div class="my-3"></div>
+              <h6>
+                High School Holds Sunset Memorial for Teenager Killed in El Paso
+                Attack
+              </h6>
+              <p>
+                "Javier was just a young man full of life...He didn't deserve to
+                die in a tragedy like this," said Juan Martinez, superintendent
+                of the Clint Independent School District outside El Paso.
+              </p>
+            </article>
+            <article class="col-sm-12 col-md-6 col-lg">
+              <div class="mag-img m14"></div>
+              <div class="my-3"></div>
+              <h6>
+                O'Rourke Stands Up To Trump: 'El Paso Will Not Be Quiet And
+                Neither Will I'
+              </h6>
+              <p>
+                "22 people in my hometown are dead after an act of terror
+                inspired by your racism," 2020 Democratic presidential candidate
+                Beto O'Rourke said in a message aimed at President Donald Trump.
+              </p>
+            </article>
+            <article class="col-sm-12 col-md-6 col-lg">
+              <div class="mag-img m15"></div>
+              <div class="my-3"></div>
+              <h6>
+                Mostly Plant-Based Diet Could Cut Heart Disease Risk
+              </h6>
+              <p>
+                And not all plant-based diets are equally healthy, an expert
+                told Newsweek.
+              </p>
+            </article>
+            <article class="col-sm-12 col-md-6 col-lg">
+              <div class="mag-img m16"></div>
+              <div class="my-3"></div>
+              <h6>
+                Ex-GOP Congressman Says Republicans Will Do 'Nothing' on Gun
+                Control
+              </h6>
+              <p>
+                Former Florida Congressman David Jolly called on Democrats to
+                clear out Republicans from the House and Senate to tackle gun
+                control.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="fifth-section container-fluid pt-5">
+        <h4>FEATURED SLIDESHOWS</h4>
+        <div class="section2-div2">
+          <div class="row justify-content-md-around">
+            <article class="col-sm-12 col-md-4">
+              <div class="mag-img m17"></div>
+              <div class="my-3"></div>
+              <h6>
+                The Manson Family in Photos: Portraits of Murder
+              </h6>
+            </article>
+            <article class="col-sm-12 col-md-4">
+              <div class="mag-img m18"></div>
+              <div class="my-3"></div>
+              <h6>
+                Avant Garde King Pierre Cardin Takes Brooklyn by Storm
+              </h6>
+            </article>
+            <article class="col-sm-12 col-md-4">
+              <div class="mag-img m19"></div>
+              <div class="my-3"></div>
+              <h6>
+                The Revamped Oscar de la Renta Is All the Rage
+              </h6>
+            </article>
+          </div>
+        </div>
+        <div class="section2-div2">
+          <div class="row justify-content-md-around">
+            <article class="col-sm-12 col-md-4">
+              <div class="mag-img m20"></div>
+              <div class="my-3"></div>
+              <h6>
+                How to Survive a Walking Safari in Africa
+              </h6>
+            </article>
+            <article class="col-sm-12 col-md-4">
+              <div class="mag-img m21"></div>
+              <div class="my-3"></div>
+              <h6>
+                Under the Sea: A Diving Bucket List
+              </h6>
+            </article>
+            <article class="col-sm-12 col-md-4">
+              <div class="mag-img m22"></div>
+              <div class="my-3"></div>
+              <h6>
+                One Giant Leap: 5 U.S. Destinations That Helped Put Man on the
+                Moon
+              </h6>
+            </article>
+          </div>
+        </div>
+      </section>
+      <hr class="divider" />
+      <section class="sixth-section container-fluid">
+        <h4>U.S.</h4>
+        <div class="row">
+          <div class="col-md-8 justify-content-md-between p-0">
+            <article class="col-md-6 float-left">
+              <div class="mag-img m23"></div>
+              <div class="my-3"></div>
+              <h6 class="sixth-heading">
+                Lawsuit: University 'Branded' Student as Rapist, Ended His NFL
+                Chances
+              </h6>
+            </article>
+            <article class="col-md-6 float-right">
+              <div class="mag-img m24"></div>
+              <div class="my-3"></div>
+              <h6 class="sixth-heading">
+                One of Castro's Own Donors Was Included On List of Top Trump
+                Contributors
+              </h6>
+            </article>
+          </div>
+          <div class="col-md-4 p-0 sixth-2">
+            <article class="col-md-12 clearfix side">
+              <div class="latest-div-1 w-100">
+                <img
+                  src="Images/tucker.jpg"
+                  class="latest-img"
+                  alt="Trump Rally"
+                />
+                <h6 class="opinion-title text-1">
+                  Former Head of KKK Supports Tucker Carlson for White Supremacy
+                  'Hoax' Claim
+                </h6>
+              </div>
+            </article>
+            <article class="col-md-12 clearfix side">
+              <div class="latest-div-1 w-100 pt-2">
+                <img
+                  src="Images/joe.png"
+                  class="latest-img"
+                  alt="Trump Rally"
+                />
+                <h6 class="opinion-title text-1">
+                  Joe Rogan Trends On Twitter After Bernie Sanders Appears On
+                  Podcast
+                </h6>
+              </div>
+            </article>
+            <article class="col-md-12 clearfix">
+              <div class="latest-div-1 w-100 pt-2">
+                <img
+                  src="Images/wall.jpg"
+                  class="latest-img"
+                  alt="Trump Rally"
+                />
+                <h6 class="opinion-title text-1">
+                  Texas College Dems: Trump Only Cares About Us When Saying
+                  'Build The Wall'
+                </h6>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <hr class="divider" />
+      <section class="sixth-section container-fluid">
+        <h4>WORLD</h4>
+        <div class="row">
+          <div class="col-md-8 justify-content-md-between p-0">
+            <article class="col-md-6 float-left">
+              <div class="mag-img m25"></div>
+              <div class="my-3"></div>
+              <h6 class="sixth-heading">
+                Video Shows Turkmen Leader Defy Death Rumors with Wild Summer
+                Vacation
+              </h6>
+            </article>
+            <article class="col-md-6 float-right">
+              <div class="mag-img m26"></div>
+              <div class="my-3"></div>
+              <h6 class="sixth-heading">
+                China and Pakistan Warn India Over 'Unacceptable' Border Moves
+              </h6>
+            </article>
+          </div>
+          <div class="col-md-4 p-0 sixth-2">
+            <article class="col-md-12 clearfix side">
+              <div class="latest-div-1 w-100">
+                <img
+                  src="Images/japan.jpg"
+                  class="latest-img"
+                  alt="Trump Rally"
+                />
+                <h6 class="opinion-title text-1">
+                  Iran Names U.S. As 'First and Only' to Use Nuclear Weapons on
+                  Anniversary
+                </h6>
+              </div>
+            </article>
+            <article class="col-md-12 clearfix side">
+              <div class="latest-div-1 w-100 pt-2">
+                <img
+                  src="Images/korea.jpg"
+                  class="latest-img"
+                  alt="Trump Rally"
+                />
+                <h6 class="opinion-title text-1">
+                  N. Korea Says U.S., South to Pay 'Heavy Price' for Drills,
+                  Fires Missiles
+                </h6>
+              </div>
+            </article>
+            <article class="col-md-12 clearfix">
+              <div class="latest-div-1 w-100 pt-2">
+                <img
+                  src="Images/spanish.jpg"
+                  class="latest-img"
+                  alt="Trump Rally"
+                />
+                <h6 class="opinion-title text-1">
+                  Spanish Police Order Man Who Threw Fridge Off Cliff To Haul It
+                  Back Up
+                </h6>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <hr class="divider" />
+      <section class="sixth-section container-fluid">
+        <h4>BUSINESS</h4>
+        <div class="row">
+          <div class="col-md-8 justify-content-md-between p-0">
+            <article class="col-md-6 float-left">
+              <div class="mag-img m27"></div>
+              <div class="my-3"></div>
+              <h6 class="sixth-heading">
+                22-Year-Old Allegedly Scammed Amazon Out Of $370K
+              </h6>
+            </article>
+            <article class="col-md-6 float-right">
+              <div class="mag-img m28"></div>
+              <div class="my-3"></div>
+              <h6 class="sixth-heading">
+                Andrew Yang Net Worth: Democratic Candidate Promises $1,000 to
+                All Adults
+              </h6>
+            </article>
+          </div>
+          <div class="col-md-4 p-0 sixth-2">
+            <article class="col-md-12 clearfix side">
+              <div class="latest-div-1 w-100">
+                <img
+                  src="Images/janet.jpg"
+                  class="latest-img"
+                  alt="Trump Rally"
+                />
+                <h6 class="opinion-title text-1">
+                  Ex-Federal Reserve Chair Janet Yellen Agrees With Trump: Cut
+                  Rates
+                </h6>
+              </div>
+            </article>
+            <article class="col-md-12 clearfix side">
+              <div class="latest-div-1 w-100 pt-2">
+                <img
+                  src="Images/trump-apple.jpg"
+                  class="latest-img"
+                  alt="Trump Rally"
+                />
+                <h6 class="opinion-title text-1">
+                  Donald Trump Tweets Apple Tariff Threat Using iPhone, Gets
+                  Called Hypocrite
+                </h6>
+              </div>
+            </article>
+            <article class="col-md-12 clearfix">
+              <div class="latest-div-1 w-100 pt-2">
+                <img
+                  src="Images/dubai-starbucks.jpg"
+                  class="latest-img"
+                  alt="Trump Rally"
+                />
+                <h6 class="opinion-title text-1">
+                  The 9 Most Beautiful Starbucks in the World
+                </h6>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <hr class="divider" />
+      <section class="sixth-section container-fluid">
+        <h4>TECH &#38; SCIENCE</h4>
+        <div class="row">
+          <div class="col-md-8 justify-content-md-between p-0">
+            <article class="col-md-6 float-left">
+              <div class="mag-img m29"></div>
+              <div class="my-3"></div>
+              <h6 class="sixth-heading">
+                Earth's Magnetic Field Went Completely Haywire During Last
+                Reversal
+              </h6>
+            </article>
+            <article class="col-md-6 float-right">
+              <div class="mag-img m30"></div>
+              <div class="my-3"></div>
+              <h6 class="sixth-heading">
+                39 Ancient, Massive, Invisible Galaxies That Defy Theories
+                Discovered
+              </h6>
+            </article>
+          </div>
+          <div class="col-md-4 p-0 sixth-2">
+            <article class="col-md-12 clearfix side">
+              <div class="latest-div-1 w-100">
+                <img
+                  src="Images/tectonic-plates.jpg"
+                  class="latest-img"
+                  alt="Trump Rally"
+                />
+                <h6 class="opinion-title text-1">
+                  Earth's Tectonic Plates Began Moving Around 2.5 Billion Years
+                  Ago
+                </h6>
+              </div>
+            </article>
+            <article class="col-md-12 clearfix side">
+              <div class="latest-div-1 w-100 pt-2">
+                <img
+                  src="Images/binance.jpg"
+                  class="latest-img"
+                  alt="Trump Rally"
+                />
+                <h6 class="opinion-title text-1">
+                  Has Binance Been Hacked? Crypto Exchange Probing Alleged Leak
+                  of User Data
+                </h6>
+              </div>
+            </article>
+            <article class="col-md-12 clearfix">
+              <div class="latest-div-1 w-100 pt-2">
+                <img
+                  src="Images/san-andreas-fault.jpg"
+                  class="latest-img"
+                  alt="Trump Rally"
+                />
+                <h6 class="opinion-title text-1">
+                  NASA Plane Flying Around San Andreas Fault Sparks Conspiracy
+                  Theories
+                </h6>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <hr class="divider" />
+      <section class="sixth-section container-fluid">
+        <h4>CULTURE</h4>
+        <div class="row">
+          <div class="col-md-8 justify-content-md-between p-0">
+            <article class="col-md-6 float-left">
+              <div class="mag-img m31"></div>
+              <div class="my-3"></div>
+              <h6 class="sixth-heading">
+                Nicolas Cage Had Different 'Wicker Man' Ending In Mind
+              </h6>
+            </article>
+            <article class="col-md-6 float-right">
+              <div class="mag-img m32"></div>
+              <div class="my-3"></div>
+              <h6 class="sixth-heading">
+                There's no better place on the planet to spot a celeb than at
+                various places around Los Angeles
+              </h6>
+            </article>
+          </div>
+          <div class="col-md-4 p-0 sixth-2">
+            <article class="col-md-12 clearfix side">
+              <div class="latest-div-1 w-100">
+                <img
+                  src="Images/boiling-crab-la.jpg"
+                  class="latest-img"
+                  alt="Trump Rally"
+                />
+                <h6 class="opinion-title text-1">
+                  A visit to LA's Koreatown is nearly obligatory for food lovers
+                  these days.
+                </h6>
+              </div>
+            </article>
+            <article class="col-md-12 clearfix side">
+              <div class="latest-div-1 w-100 pt-2">
+                <img
+                  src="Images/sharks.jpg"
+                  class="latest-img"
+                  alt="Trump Rally"
+                />
+                <h6 class="opinion-title text-1">
+                  Sharks Near Myrtle Beach Captured Enjoying a Feeding Frenzy
+                </h6>
+              </div>
+            </article>
+            <article class="col-md-12 clearfix">
+              <div class="latest-div-1 w-100 pt-2">
+                <img
+                  src="Images/mariachi.jpg"
+                  class="latest-img"
+                  alt="Trump Rally"
+                />
+                <h6 class="opinion-title text-1">
+                  Take yourself and your taste buds on a spin around the globe
+                  without ever leaving LA
+                </h6>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <hr class="divider" />
+      <section class="sixth-section container-fluid">
+        <h4>SPORTS</h4>
+        <div class="row">
+          <div class="col-md-8 justify-content-md-between p-0">
+            <article class="col-md-6 float-left">
+              <div class="mag-img m33"></div>
+              <div class="my-3"></div>
+              <h6 class="sixth-heading">
+                When Does the Premier League Transfer Window Close? Dates and
+                Latest Rumors
+              </h6>
+            </article>
+            <article class="col-md-6 float-right">
+              <div class="mag-img m34"></div>
+              <div class="my-3"></div>
+              <h6 class="sixth-heading">
+                When Does NFL Season 2019 Start? Dates, Time, TV Schedule, Live
+                Stream
+              </h6>
+            </article>
+          </div>
+          <div class="col-md-4 p-0 sixth-2">
+            <article class="col-md-12 clearfix side">
+              <div class="latest-div-1 w-100">
+                <img
+                  src="Images/pittsburgh.jpg"
+                  class="latest-img"
+                  alt="Trump Rally"
+                />
+                <h6 class="opinion-title text-1">
+                  NFL 2019 Thursday Night Football Schedule: How to Watch, Live
+                  Stream Games
+                </h6>
+              </div>
+            </article>
+            <article class="col-md-12 clearfix side">
+              <div class="latest-div-1 w-100 pt-2">
+                <img
+                  src="Images/derek-carr.jpg"
+                  class="latest-img"
+                  alt="Trump Rally"
+                />
+                <h6 class="opinion-title text-1">
+                  'Hard Knocks' 2019 Schedule: When Is Episode 2, How to Watch,
+                  Live Stream
+                </h6>
+              </div>
+            </article>
+            <article class="col-md-12 clearfix">
+              <div class="latest-div-1 w-100 pt-2">
+                <img
+                  src="Images/jon-gruden.jpg"
+                  class="latest-img"
+                  alt="Trump Rally"
+                />
+                <h6 class="opinion-title text-1">
+                  'Hard Knocks' Recap: Jonathan Abram Emerges as New Oakland
+                  Raiders Star
+                </h6>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="subscribe-section container-fluid clearfix">
+        <div class="row">
+          <div class="col-lg-8 p-4">
+            <h4>SUBSCRIBE</h4>
+            <div class="clearfix">
+              <div class="sub-cover float-md-left">
+                <img
+                  src="/Images/subscribe-cover.jpg"
+                  alt="Subscription cover"
+                  class="card-img-top subscribe-img"
+                />
+              </div>
+              <div class="card-body sub-cover-2 float-md-right">
+                <h5>
+                  In-depth Stories You Don't See Elsewhere About Topics You Want
+                  to Read!
+                </h5>
+                <p>
+                  All Access + Weekly Delivery. Choose A Membership That's
+                  Perfect for You!
+                </p>
+                <button>SUBSCRIBE ></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-4 p-4">
+            <h4>NEWSLETTER</h4>
+            <div>
+              <div class="letter float-md-left"></div>
+              <div class="card-body letter-2 float-md-right">
+                <h5>
+                  Daily Briefing
+                </h5>
+                <p>
+                  Take back your inbox. Sign up for our newsletter and start
+                  making sense of the world around you.
+                </p>
+                <button>SIGN IN</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="container">
+      <div class="row ftr-half justify-content-md-between">
+        <div class="col-md-7 col-lg-6">
+        <span class="float-md-left ftr-sp-1 font">NEWSWEEK</span>
+        <span class="ftr-sp-2">© 2019 NEWSWEEK </span>
+      </div>
+        <ul class="offset-md-1 col-md-4 offset-lg-3 col-lg-3">
+          <li>
+            <a>
+              <img
+                src="https://img.icons8.com/ios/50/000000/twitter.png"
+                alt="twitter"
+              />
+            </a>
+          </li>
+          <li>
+            <a>
+              <img
+                src="https://img.icons8.com/ios/50/000000/instagram-new.png"
+                alt="instagram"
+              />
+            </a>
+          </li>
+          <li>
+            <a>
+              <img
+                src="https://img.icons8.com/ios/50/000000/tumblr--v1.png"
+                alt="tumblr"
+              />
+            </a>
+          </li>
+          <li>
+            <a>
+              <img
+                src="https://img.icons8.com/ios/50/000000/linkedin.png"
+                alt="linkedin"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="col-lg-7">
+          <ul class="float-lg-left p-0">
+            <li>About Us</li>
+            <li>Corrections</li>
+            <li>Contact Us</li>
+            <li>Editorial Guidelines</li>
+            <li>Advertise</li>
+            <li>Copyright</li>
+            <li>Terms & Conditions</li>
+            <li>Privacy Policy</li>
+            <li>Cookie Policy</li>
+            <li>Terms of Sale</li>
+            <li>Archive</li>
+            <li>Announcements</li>
+            <li>Consent preferences</li>
+          </ul>
+        </div>
+        <div class="col-lg-4 offset-lg-1">
+          <ul class="float-lg-right p-0">
+            <li>Editions:</li>
+            <li>U.S. Edition</li>
+            <li>日本</li>
+            <li>한국</li>
+            <li>Pakistan</li>
+            <li>Polska</li>
+            <li>România</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
