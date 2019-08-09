@@ -168,14 +168,14 @@ section h5 {
     background-size: cover;
     height: 16rem;
 }
-.m1 {background-image: url(/Images/august-cover.jpg);}
-.m2 {background-image: url(/Images/bondage.jpg);}
-.m3 {background-image: url(/Images/terry.jpg);}
-.m4 {background-image: url(/Images/divided.jpg);}
-.m5 {background-image: url(/Images/money.jpg);}
-.m6 {background-image: url(/Images/strawberries.jpg);}
-.m7 {background-image: url(/Images/rupaul.jpg);}
-.m8 {background-image: url(/Images/world-class-relief.jpg);}
+.m1 {background-image: url(./Images/august-cover.jpg);}
+.m2 {background-image: url(./Images/bondage.jpg);}
+.m3 {background-image: url(./Images/terry.jpg);}
+.m4 {background-image: url(./Images/divided.jpg);}
+.m5 {background-image: url(./Images/money.jpg);}
+.m6 {background-image: url(./Images/strawberries.jpg);}
+.m7 {background-image: url(./Images/rupaul.jpg);}
+.m8 {background-image: url(./Images/world-class-relief.jpg);}
 .second-section article h6 {
     font-size: 1.1rem;
     font-weight: bold;
@@ -230,14 +230,14 @@ section h5 {
     left: 2%;
     position: relative;
 }
-.m9 {background-image: url(/Images/visit.jpg);}
-.m10 {background-image: url(/Images/trump-taxes.jpg);}
-.m11 {background-image: url(/Images/home-alone.jpg);}
-.m12 {background-image: url(/Images/toni.jpg);}
-.m13 {background-image: url(/Images/horizon-2.jpg);}
-.m14 {background-image: url(/Images/beto-orourke.jpg);}
-.m15 {background-image: url(/Images/vegan.jpg);}
-.m16 {background-image: url(/Images/soldier.jpg);}
+.m9 {background-image: url(./Images/visit.jpg);}
+.m10 {background-image: url(./Images/trump-taxes.jpg);}
+.m11 {background-image: url(./Images/home-alone.jpg);}
+.m12 {background-image: url(./Images/toni.jpg);}
+.m13 {background-image: url(./Images/horizon-2.jpg);}
+.m14 {background-image: url(./Images/beto-orourke.jpg);}
+.m15 {background-image: url(./Images/vegan.jpg);}
+.m16 {background-image: url(./Images/soldier.jpg);}
 .fourth-section h6 {
     font-size: 1.2rem;
     font-weight: bold;
@@ -263,33 +263,33 @@ section h5 {
     color: #f72210;
     font-weight: bold;
 }
-.m17 {background-image: url(/Images/manson.jpg);}
-.m18 {background-image: url(/Images/avant-garde.jpg);}
-.m19 {background-image: url(/Images/revamp.jpg);}
-.m20 {background-image: url(/Images/lions-safari.jpg);}
-.m21 {background-image: url(/Images/papua.jpg);}
-.m22 {background-image: url(/Images/rocket.jpg);}
+.m17 {background-image: url(./Images/manson.jpg);}
+.m18 {background-image: url(./Images/avant-garde.jpg);}
+.m19 {background-image: url(./Images/revamp.jpg);}
+.m20 {background-image: url(./Images/lions-safari.jpg);}
+.m21 {background-image: url(./Images/papua.jpg);}
+.m22 {background-image: url(./Images/rocket.jpg);}
 .fifth-section h6 {
     font-size: 1.2rem;
     font-weight: bold;
 }
-.m23 {background-image: url(/Images/nfl.jpg);}
-.m24 {background-image: url(/Images/joaquin-castro.jpg);}
+.m23 {background-image: url(./Images/nfl.jpg);}
+.m24 {background-image: url(./Images/joaquin-castro.jpg);}
 .sixth-heading {
     font-size: 1.1rem;
     font-weight: bold;
 }
 .side {border-bottom : 1px solid #E0E0E0;}
-.m25 {background-image: url(/Images/turk.jpg);}
-.m26 {background-image: url(/Images/india.jpg);}
-.m27 {background-image: url(/Images/amazon-boxes.jpg);}
-.m28 {background-image: url(/Images/andrew.jpg);}
-.m29 {background-image: url(/Images/magnetic-field.jpg);}
-.m30 {background-image: url(/Images/hubble-vs-alma.png);}
-.m31 {background-image: url(/Images/nicolas-cage.jpg);}
-.m32 {background-image: url(/Images/beauty.jpg);}
-.m33 {background-image: url(/Images/rodri.jpg);}
-.m34 {background-image: url(/Images/aaron-rodgers.jpg);}
+.m25 {background-image: url(./Images/turk.jpg);}
+.m26 {background-image: url(./Images/india.jpg);}
+.m27 {background-image: url(./Images/amazon-boxes.jpg);}
+.m28 {background-image: url(./Images/andrew.jpg);}
+.m29 {background-image: url(./Images/magnetic-field.jpg);}
+.m30 {background-image: url(./Images/hubble-vs-alma.png);}
+.m31 {background-image: url(./Images/nicolas-cage.jpg);}
+.m32 {background-image: url(./Images/beauty.jpg);}
+.m33 {background-image: url(./Images/rodri.jpg);}
+.m34 {background-image: url(./Images/aaron-rodgers.jpg);}
 
 /*  SUBSCRIBE Section Styles */
 
@@ -328,7 +328,7 @@ section h5 {
     width: 50%;
 }
 .letter {
-    background-image: url(/Images/newsletter.gif);
+    background-image: url(./Images/newsletter.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
